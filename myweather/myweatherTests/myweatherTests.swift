@@ -1,6 +1,6 @@
 //
-//  GPS____Tests.swift
-//  GPS定位系统Tests
+//  myweatherTests.swift
+//  myweatherTests
 //
 //  Created by mohoo on 14-8-14.
 //  Copyright (c) 2014年 mohoo. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class GPS____Tests: XCTestCase {
+class myweatherTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
