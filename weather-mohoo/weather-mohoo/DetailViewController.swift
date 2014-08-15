@@ -26,8 +26,8 @@ class DetailViewController: UIViewController,CLLocationManagerDelegate {
         self.topimage.image = UIImage(named:"blur_bg_fog_day.png")
         self.view.addSubview(topimage)
         locationManger.delegate = self
-        locationManger.desiredAccuracy=kCLLocationAccuracyHundredMeters
-        //locationManger.desiredAccuracy = kCLLocationAccuracyBest//精度
+        //locationManger.desiredAccuracy=kCLLocationAccuracyHundredMeters
+        locationManger.desiredAccuracy = kCLLocationAccuracyBest//精度
         
         if(ios8()){
             locationManger.requestAlwaysAuthorization()

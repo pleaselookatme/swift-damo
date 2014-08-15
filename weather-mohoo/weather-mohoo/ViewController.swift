@@ -35,8 +35,8 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         self.view.addSubview(topimage)
         self.LoadingPlayer.startAnimating()
         locationManger.delegate = self
-        locationManger.desiredAccuracy=kCLLocationAccuracyHundredMeters
-        //locationManger.desiredAccuracy = kCLLocationAccuracyBest//精度
+       // locationManger.desiredAccuracy=kCLLocationAccuracyHundredMeters
+        locationManger.desiredAccuracy = kCLLocationAccuracyBest//精度
         
         if(ios8()){
             locationManger.requestAlwaysAuthorization()
